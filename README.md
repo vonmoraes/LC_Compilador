@@ -10,7 +10,7 @@ Os caracteres permitidos em um arquivo fonte são as letras, dígitos, espaço, 
 
 As seguintes palavras e suas variações com maiúsculas e minúsculas são reservadas:
 
-![palavrasreservadas](\docs\palavras_reservadas.png)
+![palavrasreservadas](https://github.com/vonmoraes/LC_Compilador/blob/master/docs/palavras_reservadas.png)
 
 Os comandos existentes em "L" permitem atribuição a variáveis através do operador =, entrada de valores pelo teclado e saída de valores para a tela, estruturas de repetição (repita para), estruturas de teste (se - então - senão), expressões aritméticas com inteiros e caracteres, expressões lógicas e relacionais, manipulação de vetores, além de atribuição e comparação de igualdade entre strings. A ordem de precedência nas expressões é:
 
