@@ -2,6 +2,9 @@
 
 Repositório criado para criação de um compilador referente à linguagem 'L' para a matéria de Compiladores no curso de Ciência da Computação / PUCMINAS
 
+Trabalho realizado por mim [@vonmoraes](https://github.com/vonmoraes) e por [@luludsf](https://github.com/luludsf)
+
+
 ## **Definição da Linguagem**
 
 A linguagem "L" é uma linguagem imperativa simplificada, com características do C e Pascal. A linguagem oferece tratamento para 2 tipos básicos explícitos: char e integer, além do tipo lógico que é implícito. O tipo char é um escalar que varia de 0 a 255, podendo ser escrito em formato alfanumérico ou hexadecimal. Constantes em formato hexadecimal são da forma 0xDD, onde DD é um número hexadecimal. Constantes em formato alfanumérico são da forma ‘c’ onde c é um caractere imprimível. O tipo integer é um escalar que varia de –32768 a 32767, ocupando 2 bytes. Além dos tipos básicos a linguagem permite a definição de vetores unidimensionais de caracteres e inteiros, com até 4 kB. Um string é um vetor de caracteres que quando armazenado em memória, tem seu conteúdo útil finalizado pelo caracter '$'. Constantes que representam strings são delimitadas por aspas e não devem conter aspas, quebra de linha ou $. Entretanto, esses caracteres são permitidos nos vetores de caracteres. Dessa forma, vetores e strings são compatíveis entre si, ficando a cargo do programador o controle dos seus conteúdos e tamanhos. tipo lógico assume valores 0 (falso) e 1 (verdadeiro), ocupando um byte de memória.
